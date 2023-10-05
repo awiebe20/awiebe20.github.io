@@ -1,8 +1,167 @@
 .headerTitle {
     margin: auto;
     text-align: center;
+    padding-top: 200px;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.headerText {
+    background-color: rgba(64, 64, 64, 0.8);
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.headerContainer {
+    background-image: url("https://assets.videomaker.com/2021/04/vintage-film-projector-and-film-screening-FSH2PGV-scaled.jpg");
+    width: 100%;
+    height: 550px;
+    background-size: cover;
 }
 
 #homePageimg {
-    width: 33%;
+    width: 99%;
+    border: 5px solid whitesmoke;
+}
+
+#imgContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#andersonContainer {
+    background-image: url("https://www.indiewire.com/wp-content/uploads/2018/02/shutterstock_9336584a.jpg");
+    width: 100%;
+    background-size: cover;
+    padding-top: 200px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+#andersonText {
+    align-items: center;
+    margin-bottom: 100px;
+    color: whitesmoke;
+    background-color: rgba(100, 100, 100, 60%);
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: black;
+}
+
+#scorseseContainer {
+    background-image: url("https://www.rollingstone.com/wp-content/uploads/2021/02/AP20012047728272.jpg");
+    width: 100%;
+    background-size: cover;
+    padding-top: 200px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+#scorseseText {
+    align-items: center;
+    margin-bottom: 100px;
+    color: whitesmoke;
+    background-color: rgba(100, 100, 100, 60%);
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: black;
+}
+
+#kubrickContainer {
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F1999%2F04%2Fstanley-kubrick.jpg&q=60");
+    width: 100%;
+    background-size: cover;
+    padding-top: 200px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+#kubrickText {
+    align-items: center;
+    margin-bottom: 100px;
+    color: whitesmoke;
+    background-color: rgba(100, 100, 100, 60%);
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: black;
+}
+
+.frontPageLinks {
+    text-decoration: none;
+}
+
+.frontPageLinks:hover {
+    border: 5px solid white;
+    font-size: large;
+}
+
+.ptaBody {
+    background-image: url("https://media.vanityfair.com/photos/5dcae476322c4700085a33a1/master/w_2560%2Cc_limit/paul-thomas-anderson-new-movie-1970s-california.jpg");
+    background-color: black;
+    height: 1000px;
+    background-size: cover;
+}
+
+.kubrickBody {
+    background-image: url("https://www.nydailynews.com/wp-content/uploads/migration/2016/03/07/TD2IO7DDUCIZOF33RZ5CAY6XEE.jpg?w=620");
+    height: 1000px;
+    background-size: cover;
+}
+
+.scorseseBody {
+    background-image: url("https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/WSLEGUWMJQI6NECD67LAQQIFTU.jpg");
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
+}
+
+.homeButton {
+    width: 4%;
+    margin-left: 3%;
+    padding-top: 5px;
+}
+
+.homeButton:hover {
+    width: 4.5%;
+}
+
+#directorText {
+    color: white;
+    margin-right: 60%;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#directorTextGroup {
+    padding-top: 25px;
+}
+
+.whiteLine {
+    width: 37%;
+    height: 2px;
+    margin-left: 3%;
+    padding-top: 30px;
+}
+
+#directorList {
+    color: white;
+    margin-left: 3%;
+    padding-top: 30px;
+    margin-right: 60%;
+    font-size: 18px;
+}
+
+#filmographyTable {
+    color: white;
+    margin-left: 3%;
+    padding-top: 30px;
+    margin-right: 60%;
+    font-size: 18px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: auto;
 }
