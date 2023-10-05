@@ -108,9 +108,9 @@
 }
 
 .scorseseBody {
-    background-image: url("https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/WSLEGUWMJQI6NECD67LAQQIFTU.jpg");
-    background-repeat: no-repeat;
-    height: 1000px;
+    background-image: url("https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/WSLEGUWMJQI6NECD67LAQQIFTU.jpg"), url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg");
+    background-repeat: no-repeat, repeat;
+    height: 800px;
     background-size: cover;
 }
 
@@ -155,6 +155,7 @@
     color: white;
     margin-left: 3%;
     padding-top: 30px;
+    padding-bottom: 30px;
     margin-right: 60%;
     font-size: 18px;
     text-align: center;
