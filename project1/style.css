@@ -131,7 +131,19 @@ p {
     font-size: 18px;
 }
 
+#kubrickTextGroup > p {
+    color: white;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 18px;
+}
+
 #directorTextGroup {
+    padding-top: 25px;
+}
+
+#kubrickTextGroup {
     padding-top: 25px;
 }
 
@@ -142,11 +154,27 @@ p {
     padding-top: 30px;
 }
 
+.kubrickWhiteLine {
+    width: 90%;
+    height: 2px;
+    margin-left: 5%;
+    margin-right: 5%
+    padding-top: 30px;
+}
+
 #directorList {
     color: white;
     margin-left: 3%;
     padding-top: 30px;
     margin-right: 60%;
+    font-size: 18px;
+}
+
+#kubrickList {
+    color: white;
+    margin-left: 3%;
+    padding-top: 30px;
+    margin-right: 3%;
     font-size: 18px;
 }
 
@@ -160,8 +188,26 @@ p {
     text-align: center;
 }
 
+#kubrickFilmographyTable {
+    color: white;
+    margin-left: 3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 3%;
+    font-size: 18px;
+    text-align: center;
+}
+
 table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
     margin: auto;
+}
+
+.kubrickTextBackground {
+    background-color: rgba(100, 100, 100, 50%);
+    margin-right: 60%;
+    border-radius: 3%;
+    margin-left: 3%;
+    margin-top: 3%;
 }
