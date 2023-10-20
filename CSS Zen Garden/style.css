@@ -1,22 +1,90 @@
-* {
-	font-family: Garamond, serif;
+/* Reset some default styles */
+body, h1, h2, p {
+	margin: 0;
+	padding: 0;
 }
 
+/* Set a background color for the page */
+body {
+background-color: #f2f2f2;
+font-family: Arial, sans-serif;
+}
+
+/* Style the header */
 header {
-	text-align: center;
-	background: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
-	height: 200px;
-	padding-top: 87px;
-	background-size: cover;
+background-image: url('https://img.pikbest.com/background/20220119/plant-bamboo-green-fresh-banner_6231089.jpg!bw700');
+color: #fff;
+text-align: center;
+padding: 100px;
+background-size: cover;
+}
+
+header h1, h2 {
+	background-color: rgba(145, 145, 145, 0.332);
 }
 
 header h1 {
-	font-size: 300%;
-	margin-bottom: 0px;
+	border: 3px solid white;
+	border-style: solid solid hidden solid;
+	padding-top: 10px;
+	margin-right: 25%;
+	margin-left: 25%;
 }
 
 header h2 {
-	font-size: 125%;
-	margin-top: 0px;
-	padding-bottom: 20%;
+	border: 3px solid white;
+	border-style: hidden solid solid solid;
+	padding-bottom: 10px;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+/* Style the main content */
+.main {
+background-color: #fff;
+padding: 20px;
+margin: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the sidebar */
+.sidebar {
+background-color: #f2f2f2;
+padding: 20px;
+margin: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style links */
+a {
+color: #0074d9;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+}
+
+/* Style headings */
+h1 {
+font-size: 32px;
+}
+
+h2 {
+font-size: 24px;
+}
+
+/* Add spacing between paragraphs */
+p {
+margin-bottom: 15px;
 }
