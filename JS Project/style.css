@@ -24,13 +24,53 @@ button:hover
     background-color: green;
 }
 
-#FirstGameBody
+#GameBody
 {
     background-color: grey;
+    zoom: 50%;
 }
 
-#firstgameimage
-{
-    max-width: auto;
-    max-height: auto;
-}
+#mydiv {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 9;
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    color: white;
+  }
+
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgba(0,0,255);
+    color: #fff;
+    font-size: 30px;
+  }
+
+  #gameButton {
+    width: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #gameButton2 {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  #time {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 32px;
+  }
+
+  #Waldo:hover {
+    cursor:pointer;
+  }
