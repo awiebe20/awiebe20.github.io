@@ -12,9 +12,8 @@
             <area shape="rect" coords="1890,796,1824,704" id="Waldo" onclick="newWaldo()">
         </map>
     </div>
-    <div id="mydiv">
-        <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-        <div id="mydivheader">Drag this menu!</div>
+    <div id="menu">
+        <div id="menuheader">Drag this menu!</div>
         <div id="time">  
             <span class="digit" id="min"> 
                 00</span> 
@@ -23,9 +22,10 @@
                 00</span> 
             <span class="txt">Sec</span> 
         </div>
-        <button id="gameButton" onclick="newWaldo()">Next Round!</button>
+        <button id="gameButton" onclick="solution()">Show Location</button>
         <a href="index.html">
             <button id="gameButton2">Restart</button>
         </a>
     </div>
+    <div id="showWaldo"> </div>
 </body>

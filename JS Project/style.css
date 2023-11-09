@@ -30,7 +30,7 @@ button:hover
     zoom: 50%;
 }
 
-#mydiv {
+#menu {
     position: absolute;
     top: 80px;
     left: 80px;
@@ -43,7 +43,7 @@ button:hover
     color: white;
   }
 
-  #mydivheader {
+  #menuheader {
     padding: 10px;
     cursor: move;
     z-index: 10;
@@ -73,4 +73,10 @@ button:hover
 
   #Waldo:hover {
     cursor:pointer;
+  }
+
+  #gameimage {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
   }
