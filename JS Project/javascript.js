@@ -105,31 +105,31 @@ function solution()
         let solutionArrow = document.createElement('img');
         solutionArrow.src = "https://pngimg.com/d/red_arrow_PNG73.png";
         solutionArrow.setAttribute('id', 'solutionArrow');
-        document.getElementById("showWaldo").appendChild(solutionArrow);
+        document.getElementById("imagecontainer").append(solutionArrow);
         let solutionArrow2 = document.getElementById("solutionArrow");
         solutionArrow2.style.position = "absolute";
         solutionArrow2.style.width = "150px";
         if (i == -1)
         {
-        solutionArrow2.style.right = "33%";
-        solutionArrow2.style.top = "40%";
+            solutionArrow2.style.right = "33%";
+            solutionArrow2.style.top = "30%";
         }
-    if (i == 0)
-        {
-        solutionArrow2.style.left = "19.5%";
-        solutionArrow2.style.top = "98%";
-        }
-    if (i == 1)
-        {
-        solutionArrow2.style.left = "32%";
-        solutionArrow2.style.top = "28%";
-        }
-    if (i == 2)
-        {
-        solutionArrow2.style.right = "15.5%";
-        solutionArrow2.style.bottom = "20%";
-        solutionArrow2.style.transform = "rotate(270deg)";
-        }
+        if (i == 0)
+            {
+            solutionArrow2.style.left = "17.5%";
+            solutionArrow2.style.top = "75.5%";
+            }
+        if (i == 1)
+            {
+            solutionArrow2.style.left = "28.5%";
+            solutionArrow2.style.top = "22.5%";
+            }
+        if (i == 2)
+            {
+            solutionArrow2.style.right = "11.5%";
+            solutionArrow2.style.bottom = "34%";
+            solutionArrow2.style.transform = "rotate(270deg)";
+            }
     }
     
     hasArrow = true;

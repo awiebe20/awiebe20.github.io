@@ -1,20 +1,29 @@
-#HomePageBody
+body
 {
-    background-color: grey;
-    background-size: cover;
+    background-color: rgb(52,189,235);
 }
 
 #HomePageContent
 {
+    position: absolute;
     color: white;
     text-align: center;
     margin-top: 15%;
+    right:12%;
+
+}
+
+#homePageWaldo 
+{
+    position: absolute;
+    width: 50%;
+    bottom: 10px
 }
 
 button
 {
     cursor: pointer;
-    width: 10%;
+    width: 25%;
     height: 50px;
     border-radius: 10%;
 }
@@ -26,7 +35,6 @@ button:hover
 
 #GameBody
 {
-    background-color: grey;
     zoom: 50%;
 }
 
@@ -76,7 +84,37 @@ button:hover
   }
 
   #gameimage {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+    
+  }
+
+  #animatedHeader {
+    color: white;
+    width: 350px;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    animation-name: winner;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes winner {
+    0% {color: white; left: 18%; top: 15%;}
+    25% {color: red; left: 60%; top: 15%;}
+    50% {color: green; left: 60%; top: 48%;}
+    75% {color: purple; left: 18%; top: 48%;}
+    100% {color: white; left:18%; top: 15%;}
+  }
+
+  #endButton {
+    width: 150px;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    margin: auto;
+  }
+
+  #imagecontainer {
+    position: absolute;
   }
