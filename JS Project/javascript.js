@@ -88,7 +88,7 @@ function newWaldo()
         document.getElementById("Waldo").coords = imagecoords[i];
     }
     else {
-        location.href = "endpage.html"
+        location.href = "endpage.html";
     }
     if (i == 2)
     {
